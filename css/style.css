@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	word-break: break-all;
+	box-sizing: border-box;
+}
+
+.flex-rCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.flex-cCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+body{
+	background-color: #000000;
+}
+
+.content{
+	position: relative;
+	background-image: url(../images/mlgq_container.png);
+	background-repeat: no-repeat;
+	width: 900px;
+	height: 506px;
+}
+
+.joinQQGroup{
+	position: absolute;
+	top: 451px;
+	left: 115px;
+}
